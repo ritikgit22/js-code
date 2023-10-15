@@ -17,4 +17,5 @@ let isloggedIn = true
 
 console.table([namee , age , isloggedIn])
 
-//link : https://tc39.es/ecma262/#sec-intro
+// link : https://tc39.es/ecma262/#sec-intro
+// link : https://developer.mozilla.org/en-US/docs/Web/JavaScript
