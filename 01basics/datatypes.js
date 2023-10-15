@@ -16,3 +16,5 @@ let isloggedIn = true
 // object
 
 console.table([namee , age , isloggedIn])
+
+//link : https://tc39.es/ecma262/#sec-intro
