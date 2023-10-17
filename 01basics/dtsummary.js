@@ -34,3 +34,26 @@ console.log(typeof anotherID);
 
 // +++++++++++++++++++++++++++++++++++++ Memory +++++++++++++++++++++++++++++++++++++++
 
+// Stack (Primitive) , Heap (Non - Primitive)
+
+
+//Primitive
+
+let myyoutubename = "ritikontheYT"
+let anothername = myyoutubename
+anothername = "ritiknewYT"
+console.log(myyoutubename);
+console.log(anothername);
+
+//Non - Primitive
+
+let user1 = {
+    emailID : "user1@gmail.com"
+    upiID : "user1@paytm"
+}
+
+let user2 = user1
+user2.emailID = "user2@gmail.com"
+console.log(user1.emailID);
+console.log(user2.emailID);
+
