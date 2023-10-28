@@ -26,25 +26,35 @@ const obj3 = {5:"a" , 6:"b"}
 //const obj4 = {obj1 , obj2}
 //const obj4 = Object.assign({}, obj1, obj2, obj3)
 const obj4 = {...obj1 , ...obj2 , ...obj3}
-console.log(obj4);
+//console.log(obj4);
 
-const users = [
-    {
-        id : 1 , 
-        email : "r@gmail.com"
-    },
-    {
-        id : 1 , 
-        email : "r@gmail.com"
-    },
-    {
-        id : 1 , 
-        email : "r@gmail.com"
-    },
-]
+// const users = [
+//     {
+//         id : 1 , 
+//         email : "r@gmail.com"
+//     },
+//     {
+//         id : 1 , 
+//         email : "r@gmail.com"
+//     },
+//     {
+//         id : 1 , 
+//         email : "r@gmail.com"
+//     },
+// ]
 
-users[1].email
-console.log(tinderuser);
-console.log(Object.keys(tinderuser));
-console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser));
+// users[1].email
+// console.log(tinderuser);
+// console.log(Object.keys(tinderuser));
+// console.log(Object.values(tinderuser));
+// console.log(Object.entries(tinderuser));
+
+
+const course = { coursename : "js in hindi" , price : "999" , courseinst : "ritik" }
+
+console.log(course.courseinst)
+const {courseinst : inst} = course
+console.log(courseinst);
+console.log(inst);
+
+// JSON API intro.......
